@@ -108,8 +108,7 @@ img.carousel-control-prev-icon-mod {
   border-radius: 30px;
   padding: 3vw 5vw;
   max-width: 75%;
-  background-color: rgb(226, 226, 226);
-  opacity: 75%;
+  background-color: rgb(226, 226, 226, 0.6);
   border: none;
 }
 
@@ -135,16 +134,18 @@ img.carousel-control-prev-icon-mod {
 .carousel-caption a {
   border-radius: 4vw;
   background-color: #766b8f;
-  border-color: #766b8f;
+  border-color: transparent;
   opacity: 100%;
-  box-shadow: .4vw 0.25vw 5px grey;
-  padding: 5px 50px;
-  font-family: 'Open Sans Light', sans-serif;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.3);
+  padding: 10px 50px;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .carousel-caption a:hover {
   background-color: #4a4061;
-  border-color: #766b8f;
+  border-color: transparent;
 }
 
 .carousel-caption.vertical-center {
