@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
 
 main {
   overflow: hidden;
@@ -9,20 +9,31 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Karma', sans-serif;
   font-size: 2.5em;
   color: black;
 }
 
-h3 {
+h2 {
+  font-family: 'Karma', sans-serif;
+  font-size: 2.5em;
   color: black;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Karma', sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: 200;
 }
 
 h4 {
-  font-family: 'Open Sans Bold 700', sans-serif;
-  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
   color: black;
+  font-weight: 600;
 }
 
 h5 {
@@ -75,7 +86,7 @@ a.nav-link {
 
 /* Carousel base class */
 #myCarousel {
-  margin-top: 8vw;
+  margin-top: 150px;
   margin-bottom: -1rem;;
 }
 
@@ -192,7 +203,8 @@ a.nav-link {
 
 .testimonial {
   background: #f2edff;
-  padding: 40px 0px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .testimonial-content {
