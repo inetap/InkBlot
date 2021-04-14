@@ -212,6 +212,12 @@ a.nav-link {
   padding: 40px 0px;
 }
 
+.testimonial-content{
+  margin-top: 50px !important;
+  max-width: 750px;
+  margin:auto;
+}
+
 .testimonial-main {
   width: 70%;
   box-shadow: 
