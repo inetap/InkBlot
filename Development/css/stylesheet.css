@@ -65,30 +65,13 @@ a.nav-link {
 }
 
 .site-logo {
-  max-height: 6vw;
+  max-height: 100px;
 }
 
-/* Carousel styling */
-
-/* .carousel-caption {
-  right: 5%;
-  text-align: right;
-  background-color: white;
-  max-width: 400px;
-  left: auto;
-  padding: 5px; 
-} */
-/* .carousel-caption.right {
-  left: 60%;
-  right: auto;
-  max-width: 30%;
+.cart-icon {
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
-
-.carousel-caption.left {
-  right: 60%;
-  left: auto;
-  max-width: 30%
-} */
 
 /* Carousel base class */
 #myCarousel {
@@ -212,7 +195,7 @@ a.nav-link {
   padding: 40px 0px;
 }
 
-.testimonial-content{
+.testimonial-content {
   margin-top: 50px !important;
   max-width: 750px;
   margin:auto;
@@ -363,15 +346,4 @@ footer {
       .card {
         max-width: 90%;
       }
-  }
-
-/* @media (min-width: 768px) {
-  .navbar-brand.abs
-      {
-          position: absolute;
-          width: 100%;
-          left: 0;
-          text-align: center;
-      }
-  }
-   */
+}
