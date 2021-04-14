@@ -108,7 +108,7 @@ img.carousel-control-prev-icon-mod {
   border-radius: 30px;
   padding: 3vw 5vw;
   max-width: 75%;
-  background-color: rgb(226, 226, 226, 0.6);
+  background-color: rgb(226, 226, 226, 0.4);
   border: none;
 }
 
@@ -137,7 +137,7 @@ img.carousel-control-prev-icon-mod {
   border-color: transparent;
   opacity: 100%;
   box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.3);
-  padding: 10px 50px;
+  padding: 8px 67px;
   font-family: 'Open Sans Regular', sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -146,6 +146,7 @@ img.carousel-control-prev-icon-mod {
 .carousel-caption a:hover {
   background-color: #4a4061;
   border-color: transparent;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-caption.vertical-center {
@@ -258,19 +259,22 @@ img.carousel-control-prev-icon-mod {
 }
 
 .round-button {
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   border-radius: 2em;
   width: 300px;
   margin-right: -20px;
+  padding: 10px 30px;
   background-color: #766b8f;
-  border-color: #766b8f;
+  border-color: transparent;
   overflow: hidden;
-  box-shadow: .4vw 0.25vw 5px grey;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.3);
 }
 .round-button:hover {
   background-color: #4a4061;
-  border-color: #766b8f;
+  border-color: transparent;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Journaling 101 styling */
@@ -307,13 +311,20 @@ img.carousel-control-prev-icon-mod {
 .submit-form-button {
   border-radius: 2em;
   width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #766b8f;
-  border-color: #766b8f;
+  border-color: transparent;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans Regular', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .submit-form-button:hover {
   background-color: #4a4061;
-  border-color: #766b8f;
+  border-color: transparent;
+  box-shadow: .4vw 0.4vw 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
