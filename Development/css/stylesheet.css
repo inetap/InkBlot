@@ -423,11 +423,22 @@ footer {
   color: white;
 }
 
+.fa-facebook:hover {
+  background: #2b406e;
+  color: #766b8f;
+}
+
 .fa-instagram {
   background: #cd486b;
   color: white;
   text-align: center;
   padding-left: 12px;
+  margin-left: -30px;
+}
+
+.fa-instagram:hover {
+  background: #a73b57;
+  color: #766b8f;
 }
 
 /* Responsive styling */
